@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadingIsGood</name>
+    </assembly>
+    <members>
+        <member name="M:ReadingIsGood.Controllers.SalesOrderController.Create(ReadingIsGood.DataTransferObjects.CreateSalesOrderRequest)">
+            <summary>
+            Creates new sales order.
+            </summary>
+            <remarks>
+            Enter a valid Product Code and Quantity for the order.
+            </remarks>
+        </member>
+        <member name="M:ReadingIsGood.Controllers.SalesOrderController.GetAll(ReadingIsGood.DataTransferObjects.GetAllSalesOrderRequest)">
+            <summary>
+            Returns all orders.
+            </summary>
+        </member>
+        <member name="M:ReadingIsGood.Controllers.SalesOrderController.GetByOrderNumber(ReadingIsGood.DataTransferObjects.GetByOrderNumberSalesOrderRequest)">
+            <summary>
+            Returns order details by order number.
+            </summary>
+        </member>
+        <member name="M:ReadingIsGood.Controllers.TokenController.Post(System.String,System.String)">
+            <summary>
+            Creates JWT for authentication.
+            </summary>
+            <remarks>
+            Enter vaild user information. Add 'bearer' to the beginning of token to authenticate.
+            </remarks>
+        </member>
+        <member name="M:ReadingIsGood.Controllers.UserController.Create(ReadingIsGood.DataTransferObjects.CreateUserInfoRequest)">
+            <summary>
+            Register new user.
+            </summary>
+            <remarks>
+            Enter valid information to register as a new user.
+            </remarks>
+        </member>
+        <member name="M:ReadingIsGood.Controllers.UserController.GetUser">
+            <summary>
+            Returns user information.
+            </summary>
+        </member>
+    </members>
+</doc>
